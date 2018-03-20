@@ -11,7 +11,7 @@ _This website is a showcase of the skills learned in the fourth portion of Epico
 
 ## Setup/Installation Requirements
 
-* _With the use of jQuery and Bootstrap CDN links, you shouldn't need to download another files outside of the repository. User can order a pizza by selecting their preferred size and toppings and then hitting submit. They should then recieve a price and description of their pizza. _
+* _With the use of jQuery and Bootstrap CDN links, you shouldn't need to download another files outside of the repository. User can order a pizza by selecting their preferred size and toppings and then hitting submit. They should then recieve a price and description of their pizza._
 
 ## Behavior Driven Development
 
