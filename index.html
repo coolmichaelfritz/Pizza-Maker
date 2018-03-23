@@ -17,10 +17,25 @@
       <div class="row">
         <div class="col">
           <form id="pizzaToppings">
-            <input type="checkbox" name="pizzaQuestions" value="cheese">Cheese<br>
-            <input type="checkbox" name="pizzaQuestions" value="pepperoni">Pepperoni<br>
-            <input type="checkbox" name="pizzaQuestions" value="sausage">Sausage<br>
-            <input type="checkbox" name="pizzaQuestions" value="peppers">Peppers<br>
+            <!--SIZE SELECT-->
+            <div class="form-group">
+              <p class=pixel>How Big?</p>
+              <select class="custom-select mr-sm-2" id="sizeSelect">
+                <option selected>Choose...</option>
+                <option value="12">Personal 12"</option>
+                <option value="14">Medium 14"</option>
+                <option value="18">Party Pizza 18"</option>
+              </select>
+            </div>
+            <!--TOPPINGS CHECKBOXES-->
+            <div class="form-group">
+              <p class="pixel">Toppings:</p>
+              <input type="checkbox" name="pizzaQuestions" value="cheese"> Cheese<br>
+              <input type="checkbox" name="pizzaQuestions" value="pepperoni"> Pepperoni<br>
+              <input type="checkbox" name="pizzaQuestions" value="sausage"> Sausage<br>
+              <input type="checkbox" name="pizzaQuestions" value="peppers"> Peppers<br>
+            </div>
+            <button class="btn btn-danger" type="submit" name="button">Make my pizza!</button>
           </form>
         </div>
         <div class="col">
