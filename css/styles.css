@@ -13,3 +13,26 @@
 .cheeseSauce {
   background-color: #fbc531;
 }
+
+img {
+  position: absolute;
+}
+
+#cheese_pizza {
+  z-index:1
+}
+
+#olives {
+  display: none;
+  z-index:2
+}
+
+#peppers {
+  display: none;
+  z-index:3
+}
+
+#pepperonis {
+  display: none;
+  z-index:4
+}
