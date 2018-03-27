@@ -28,23 +28,25 @@
               </select>
             </div>
             <!--TOPPINGS CHECKBOXES-->
-            <div class="form-group">
+            <div class="form-group checkBoxes">
               <p class="pixel">Toppings:</p>
               <input type="checkbox" name="pizzaQuestions" value="cheese"> Cheese<br>
-              <input type="checkbox" name="pizzaQuestions" value="pepperoni"> Pepperoni<br>
-              <input type="checkbox" name="pizzaQuestions" value="sausage"> Sausage<br>
-              <input type="checkbox" name="pizzaQuestions" value="peppers"> Peppers<br>
+              <input type="checkbox" name="pizzaQuestions" value="pepperoni" id="box_pepperoni"> Pepperoni<br>
+              <input type="checkbox" name="pizzaQuestions" value="olives" id="box_olives"> Olives<br>
+              <input type="checkbox" name="pizzaQuestions" value="peppers" id="box_peppers"> Peppers<br>
             </div>
             <button class="btn btn-danger" type="submit" name="button">Make my pizza!</button>
           </form>
         </div>
         <div class="col">
-          <h3 class="pixel">Your Pizza</h3>
-          <img class="img-fluid" src="img/cheese_pizza.png" ></img>
-          <img class="img-fluid" src="img/olives.png" id="olives"></img>
-          <img class="img-fluid" src="img/peppers.png" id="peppers"></img>
-          <img class="img-fluid" src="img/pepperoni.png" id="pepperonis"></img>
-
+          <!--PIZZA EXAMPLE-->
+          <div class="pizzaImage">
+            <h3 class="pixel">Your Pizza</h3>
+            <img class="img-fluid" src="img/cheese_pizza.png" ></img>
+            <img class="img-fluid" src="img/olives.png" id="image_olives"></img>
+            <img class="img-fluid" src="img/peppers.png" id="image_peppers"></img>
+            <img class="img-fluid" src="img/pepperoni.png" id="image_pepperoni"></img>
+          </div>
         </div>
       </div>
     </div>
