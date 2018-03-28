@@ -6,7 +6,7 @@ function userPizza(size, toppings) {
 
 var show = 1;
 var hide = 0.0;
-var fade_speed = 'slow';
+var fade_speed = 'medium';
 var makePizza;
 
 //UI Logic
@@ -40,8 +40,14 @@ $(document).ready(function(){
         var eachTopping = $(this).val();
         newPizza.toppings.push(pizzaToppings);
       });
-      $("input:checkbox[name=pizzaQuestions]:checked").each(function(){
 
-      })
+      //Results Display
+      $("#sizeResults").text(pizzaSize)
+
+      $("#toppingsResults").text("");
+      $("input:checkbox[name=pizzaQuestions]:checked").each(function(){
+        var selectedToppings = $(this).val();
+        $("#toppingsResults").append(selectedToppings + "<br>");
+      });
   })
 })

@@ -22,9 +22,9 @@
               <p class=pixel>How Big?</p>
               <select class="custom-select mr-sm-2" id="sizeSelect">
                 <option selected>Choose...</option>
-                <option value="12">Personal 12"</option>
-                <option value="14">Medium 14"</option>
-                <option value="18">Party Pizza 18"</option>
+                <option value="12 inch">Personal 12"</option>
+                <option value="14 inch">Medium 14"</option>
+                <option value="18 inch">Party Pizza 18"</option>
               </select>
             </div>
             <!--TOPPINGS CHECKBOXES-->
@@ -37,6 +37,11 @@
             </div>
             <button class="btn btn-danger" type="submit" name="button">Make my pizza!</button>
           </form>
+          <div class="results topbuffer">
+            <h3 class="pixel">Your Order:</h3>
+            <p><span id=sizeResults></span><p>
+            <p><span id="toppingsResults"></span></p>
+          </div>
         </div>
         <div class="col">
           <!--PIZZA EXAMPLE-->
