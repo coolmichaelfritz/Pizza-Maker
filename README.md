@@ -13,18 +13,9 @@ _This website is a showcase of the skills learned in the fourth portion of Epico
 
 * _With the use of jQuery and Bootstrap CDN links, you shouldn't need to download another files outside of the repository. User can order a pizza by selecting their preferred size and toppings and then hitting submit. They should then recieve a price and description of their pizza._
 
-## Behavior Driven Development
-
-| Behavior: our program should handle:                | Input Example | Output Example                   |
-|-----------------------------------------------------|---------------|----------------------------------|
-| A counted display of a users number input           | 10            | [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] |
-| When a number is divisible by 3, display ping       | 3             | [ 1, 2, ping]                    |
-| When a number is divisible by 5, display pong       | 5             | [ 1, 2, 3, 4, pong]              |
-| When a number is divisible by 15, display ping-pong | 15            | [ 1, 2, 3, ...13, 14, ping-pong] |
-
 ## Known Bugs
 
-_All questions do not affect the outcome, only the radio buttons have an impact on what vacation suggestion is returned._
+_Prototype for effecting pricing not functioning._
 
 ## Support and contact details
 
